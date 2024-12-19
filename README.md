@@ -15,3 +15,10 @@ CREATE TABLE meetings (
     jenis_konsumsi JSON,
     nominal_konsumsi DECIMAL(10, 2)
 );
+
+setup.env -> 
+    cp example.env .env
+
+npm install
+
+node server.js
